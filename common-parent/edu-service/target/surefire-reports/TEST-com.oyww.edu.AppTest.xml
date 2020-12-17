@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.oyww.edu.AppTest" time="0.035" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.oyww.edu.AppTest" time="0.076" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.class.path" value="D:\Users\OYWW\IdeaProjects\EduProject\common-parent\edu-service\target\test-classes;D:\Users\OYWW\IdeaProjects\EduProject\common-parent\edu-service\target\classes;D:\Java\maven_repository\cn\oyww\edu\edu-dao\1.0-SNAPSHOT\edu-dao-1.0-SNAPSHOT.jar;D:\Java\maven_repository\cn\oyww\edu\edu-model\1.0-SNAPSHOT\edu-model-1.0-SNAPSHOT.jar;D:\Java\maven_repository\org\springframework\spring-beans\4.3.14.RELEASE\spring-beans-4.3.14.RELEASE.jar;D:\Java\maven_repository\org\springframework\spring-core\4.3.14.RELEASE\spring-core-4.3.14.RELEASE.jar;D:\Java\maven_repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\Java\maven_repository\org\springframework\spring-context\5.0.4.RELEASE\spring-context-5.0.4.RELEASE.jar;D:\Java\maven_repository\org\springframework\spring-aop\5.0.4.RELEASE\spring-aop-5.0.4.RELEASE.jar;D:\Java\maven_repository\org\springframework\spring-expression\5.0.4.RELEASE\spring-expression-5.0.4.RELEASE.jar;D:\Java\maven_repository\org\springframework\spring-tx\4.3.14.RELEASE\spring-tx-4.3.14.RELEASE.jar;D:\Java\maven_repository\junit\junit\4.10\junit-4.10.jar;D:\Java\maven_repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
+    <property name="java.class.path" value="D:\Users\OYWW\IdeaProjects\edu_git\edu-project\common-parent\edu-service\target\test-classes;D:\Users\OYWW\IdeaProjects\edu_git\edu-project\common-parent\edu-service\target\classes;D:\Users\OYWW\IdeaProjects\edu_git\edu-project\common-parent\edu-dao\target\edu-dao-1.0-SNAPSHOT.jar;D:\Users\OYWW\IdeaProjects\edu_git\edu-project\common-parent\edu-model\target\edu-model-1.0-SNAPSHOT.jar;D:\Java\maven_repository\org\springframework\spring-beans\4.3.14.RELEASE\spring-beans-4.3.14.RELEASE.jar;D:\Java\maven_repository\org\springframework\spring-core\4.3.14.RELEASE\spring-core-4.3.14.RELEASE.jar;D:\Java\maven_repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\Java\maven_repository\org\springframework\spring-context\5.0.4.RELEASE\spring-context-5.0.4.RELEASE.jar;D:\Java\maven_repository\org\springframework\spring-aop\5.0.4.RELEASE\spring-aop-5.0.4.RELEASE.jar;D:\Java\maven_repository\org\springframework\spring-expression\5.0.4.RELEASE\spring-expression-5.0.4.RELEASE.jar;D:\Java\maven_repository\org\springframework\spring-tx\4.3.14.RELEASE\spring-tx-4.3.14.RELEASE.jar;D:\Java\maven_repository\junit\junit\4.10\junit-4.10.jar;D:\Java\maven_repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -18,20 +18,20 @@
     <property name="user.country" value="CN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\OYWW\AppData\Local\Temp\surefire4126231600231328090\surefirebooter9201756088903450824.jar C:\Users\OYWW\AppData\Local\Temp\surefire4126231600231328090 2020-12-16T22-20-39_501-jvmRun1 surefire4607702553757733064tmp surefire_05323282648421079526tmp"/>
-    <property name="surefire.test.class.path" value="D:\Users\OYWW\IdeaProjects\EduProject\common-parent\edu-service\target\test-classes;D:\Users\OYWW\IdeaProjects\EduProject\common-parent\edu-service\target\classes;D:\Java\maven_repository\cn\oyww\edu\edu-dao\1.0-SNAPSHOT\edu-dao-1.0-SNAPSHOT.jar;D:\Java\maven_repository\cn\oyww\edu\edu-model\1.0-SNAPSHOT\edu-model-1.0-SNAPSHOT.jar;D:\Java\maven_repository\org\springframework\spring-beans\4.3.14.RELEASE\spring-beans-4.3.14.RELEASE.jar;D:\Java\maven_repository\org\springframework\spring-core\4.3.14.RELEASE\spring-core-4.3.14.RELEASE.jar;D:\Java\maven_repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\Java\maven_repository\org\springframework\spring-context\5.0.4.RELEASE\spring-context-5.0.4.RELEASE.jar;D:\Java\maven_repository\org\springframework\spring-aop\5.0.4.RELEASE\spring-aop-5.0.4.RELEASE.jar;D:\Java\maven_repository\org\springframework\spring-expression\5.0.4.RELEASE\spring-expression-5.0.4.RELEASE.jar;D:\Java\maven_repository\org\springframework\spring-tx\4.3.14.RELEASE\spring-tx-4.3.14.RELEASE.jar;D:\Java\maven_repository\junit\junit\4.10\junit-4.10.jar;D:\Java\maven_repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
+    <property name="sun.java.command" value="C:\Users\OYWW\AppData\Local\Temp\surefire2504790900429331075\surefirebooter3099907771976167250.jar C:\Users\OYWW\AppData\Local\Temp\surefire2504790900429331075 2020-12-17T23-03-53_503-jvmRun1 surefire4472824422519578193tmp surefire_28520711626037607943tmp"/>
+    <property name="surefire.test.class.path" value="D:\Users\OYWW\IdeaProjects\edu_git\edu-project\common-parent\edu-service\target\test-classes;D:\Users\OYWW\IdeaProjects\edu_git\edu-project\common-parent\edu-service\target\classes;D:\Users\OYWW\IdeaProjects\edu_git\edu-project\common-parent\edu-dao\target\edu-dao-1.0-SNAPSHOT.jar;D:\Users\OYWW\IdeaProjects\edu_git\edu-project\common-parent\edu-model\target\edu-model-1.0-SNAPSHOT.jar;D:\Java\maven_repository\org\springframework\spring-beans\4.3.14.RELEASE\spring-beans-4.3.14.RELEASE.jar;D:\Java\maven_repository\org\springframework\spring-core\4.3.14.RELEASE\spring-core-4.3.14.RELEASE.jar;D:\Java\maven_repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\Java\maven_repository\org\springframework\spring-context\5.0.4.RELEASE\spring-context-5.0.4.RELEASE.jar;D:\Java\maven_repository\org\springframework\spring-aop\5.0.4.RELEASE\spring-aop-5.0.4.RELEASE.jar;D:\Java\maven_repository\org\springframework\spring-expression\5.0.4.RELEASE\spring-expression-5.0.4.RELEASE.jar;D:\Java\maven_repository\org\springframework\spring-tx\4.3.14.RELEASE\spring-tx-4.3.14.RELEASE.jar;D:\Java\maven_repository\junit\junit\4.10\junit-4.10.jar;D:\Java\maven_repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\OYWW"/>
     <property name="user.language" value="zh"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="D:\Program Files\Java\jdk1.8.0_211\jre"/>
-    <property name="basedir" value="D:\Users\OYWW\IdeaProjects\EduProject\common-parent\edu-service"/>
+    <property name="basedir" value="D:\Users\OYWW\IdeaProjects\edu_git\edu-project\common-parent\edu-service"/>
     <property name="file.separator" value="\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\OYWW\AppData\Local\Temp\surefire4126231600231328090\surefirebooter9201756088903450824.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\OYWW\AppData\Local\Temp\surefire2504790900429331075\surefirebooter3099907771976167250.jar"/>
     <property name="sun.boot.class.path" value="D:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;D:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;D:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;D:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;D:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;D:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;D:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;D:\Program Files\Java\jdk1.8.0_211\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -48,7 +48,7 @@
     <property name="java.io.tmpdir" value="C:\Users\OYWW\AppData\Local\Temp\"/>
     <property name="idea.version" value="2017.2.6"/>
     <property name="java.version" value="1.8.0_211"/>
-    <property name="user.dir" value="D:\Users\OYWW\IdeaProjects\EduProject\common-parent\edu-service"/>
+    <property name="user.dir" value="D:\Users\OYWW\IdeaProjects\edu_git\edu-project\common-parent\edu-service"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>

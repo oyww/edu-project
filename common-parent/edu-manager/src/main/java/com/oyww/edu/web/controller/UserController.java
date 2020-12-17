@@ -4,9 +4,7 @@ import com.oyww.edu.model.User;
 import com.oyww.edu.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 
 @Controller
@@ -16,37 +14,38 @@ public class UserController {
     @Autowired
     private IUserService userService;
 
-    @RequestMapping("login")
-    public String login(){
-        System.out.println("默认打开首页");
+    @RequestMapping("index")
+    public String index(){
+        System.out.println("打开首页");
         return "Default";
     }
-    @RequestMapping("index")
-    public String showIndex(){
+
+    @RequestMapping("login")
+    public String login(){
+        System.out.println(".....");
         return "Default";
     }
 
     @RequestMapping("find")
-    @ResponseBody
-    public User find(Integer id){
+    public String find(Integer id){
         System.out.println(".....");
         User user = userService.findById(id);
         System.out.println(user);
-        return user;
+        return null;
     }
 
     @RequestMapping("manage")
     public String manage(){
-        return "User/UserManage";
+        return "user/manage";
     }
 
     @RequestMapping("info")
     public String info(){
-        return "User/UserInfo";
+        return "user/info";
     }
 
     @RequestMapping("edit")
     public String edit(){
-        return "User/UserEdit";
+        return "user/edit";
     }
 }
