@@ -1,0 +1,5 @@
+com\oyww\edu\service\impl\UserServiceImpl.class
+com\oyww\edu\service\IUserService.class
+com\oyww\edu\App.class
+com\oyww\edu\service\base\BaseServiceImpl.class
+com\oyww\edu\service\base\IBaseService.class
